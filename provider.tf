@@ -1,4 +1,4 @@
-#This is the terraform.tf block, which shows the terraform version and our cloud provider.
+#This is the terraform block and provider block, which shows the terraform version and our cloud provider.
 #Further down there's the provider block, which shows our cloud provider, region and aws credentials (I have deleted the keys for security reason).
 
 terraform {
