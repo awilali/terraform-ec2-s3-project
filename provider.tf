@@ -10,6 +10,9 @@ terraform {
   }
 }
 
+# It’s essential to avoid storing your credentials in plaintext or hardcoding them into your Terraform code. 
+# This is just demo
+
 provider "aws" {
     region = "us-east-2"
     access_key = "access_key"
